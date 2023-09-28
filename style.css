@@ -32,7 +32,7 @@ body {
 
 .search-box input {
     padding: 5px;
-    width: 70px;
+    width: 150px;
     border: none;
     outline: none;
     border-bottom: 3px solid coral;
