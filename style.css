@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: coral;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.search-box input {
+    
+}
