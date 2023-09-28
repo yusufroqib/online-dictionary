@@ -24,7 +24,40 @@ body {
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .search-box input {
-    
+    padding: 5px;
+    width: 70px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid coral;
+    font-size: 16px;
+}
+
+.search-box button {
+    cursor: pointer;
+    background-color: coral;
+    padding: 15px;
+    width: 25%;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.result .word {
+    display: flex;
+    justify-content: flex;
+    justify-content: space-between;
+    margin-top: 80px;
 }
